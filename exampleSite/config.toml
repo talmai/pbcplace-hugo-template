@@ -11,20 +11,16 @@ theme = "airspace-hugo"
   description = "Airspace Hugo theme"
   author = "Somrat"
   
-  
-  # If you want to remove the copyright text you need a Themefisher license.
-  # This license is offered with a 50% discount for all Hugo users.
-  # For information see https://github.com/gohugoio/hugoThemes/issues/260
 
-# Multilangual : FR / EN
+# Multilangual : BR / EN
 [Languages]
     ############ 1 - Site en FRANCAIS
   
 
   [Languages.fr]
-  languageName = "Fr"
+  languageName = "Br"
   weight = 1
-  languageCode = "fr-fr"
+  languageCode = "pt-br"
   title = "FRANCAIS Airspace Hugo"
   dateFormat = "2 January 2006"
   home = "FR-Home"
