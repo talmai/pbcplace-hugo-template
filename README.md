@@ -1,4 +1,4 @@
-# PBC.Place's HUGO template
+# _PBC.Place_ Hugo (website) template
 This project was forked from [Airspace for Hugo](https://github.com/themefisher/airspace-hugo), which is a clean, unique, and free bootstrap website template, contributed to the community by [Themefisher]. Airspace uses HTML5/CSS3, JavaScript, jQuery, and the [Bootstrap 3 framework](https://getbootstrap.com/docs/3.3/).
 
 ## Usage
