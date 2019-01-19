@@ -15,23 +15,21 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
+                <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo" style="display: block; position: absolute; z-index: 500; top: -15px;">
               </a>
             </div>
-            
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <!-- Language List -->
+              <ul class="list-inline lang-list navbar-right">
+                {{ range $.Site.Home.AllTranslations }}
+                <li class="list-inline-item"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                {{ end }}
+              </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
                 {{ range .Site.Menus.header }}
                 <li><a href="{{ .URL }}/">{{ .Name }}</a></li>
-                {{ end }}
-              </ul>
-              <!-- Language List -->
-              <ul class="list-inline lang-list">
-                {{ range $.Site.Home.AllTranslations }}
-                <li class="list-inline-item"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
                 {{ end }}
               </ul>
             </div><!-- /.navbar-collapse -->

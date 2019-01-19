@@ -129,6 +129,11 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
 #slider {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
@@ -136,7 +141,9 @@ font header .navbar-default .navbar-nav li a:hover {
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
+  animation: animatedBackground 40s linear infinite;
 }
+
 #slider:before {
   content: "";
   position: absolute;
