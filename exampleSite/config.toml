@@ -8,16 +8,14 @@ theme = "pbcplace-hugo-template"
 
   # Google Analitycs
   googleAnalitycsID = "Your ID"
-  description = "Airspace Hugo theme"
-  author = "Somrat"
+  description = "PBC Place's Hugo Template Theme"
+  author = "talmai"
   
-
 # Multilangual : BR / EN
 [Languages]
-    ############ 1 - Site en FRANCAIS
-  
+    ############ 1 - Site em Portugues
 
-  [Languages.fr]
+  [Languages.br]
   languageName = "Br"
   weight = 1
   languageCode = "pt-br"
@@ -25,96 +23,95 @@ theme = "pbcplace-hugo-template"
   dateFormat = "2 January 2006"
   home = "FR-Home"
 
-    
-  [Languages.fr.menu]
+  [Languages.br.menu]
 
-    [[Languages.fr.menu.header]]
+    [[Languages.br.menu.header]]
       weight = 2
       name = "FR-Work"
-      url = "/fr/work"
-    [[Languages.fr.menu.header]]
+      url = "/br/work"
+    [[Languages.br.menu.header]]
       weight = 3
       name = "FR-Blog"
-      url = "/fr/blog"
-    [[Languages.fr.menu.header]]
+      url = "/br/blog"
+    [[Languages.br.menu.header]]
       weight = 4
       name = "FR-Service"
-      url = "/fr/service"
-    [[Languages.fr.menu.header]]
+      url = "/br/service"
+    [[Languages.br.menu.header]]
       weight = 5
       name = "FR-Contact"
-      url = "/fr/contact"
+      url = "/br/contact"
 
-    [[Languages.fr.menu.footer]]
+    [[Languages.br.menu.footer]]
       weight = 1
       name = "FR-About us"
       url = "#"
-    [[Languages.fr.menu.footer]]
+    [[Languages.br.menu.footer]]
       weight = 2
       name = "FR-Contact us"
       url = "#"
-    [[Languages.fr.menu.footer]]
+    [[Languages.br.menu.footer]]
       weight = 3
       name = "FR-How it works"
       url = "#"
-    [[Languages.fr.menu.footer]]
+    [[Languages.br.menu.footer]]
       weight = 4
       name = "FR-Blog"
       url = "#"
-    [[Languages.fr.menu.footer]]
+    [[Languages.br.menu.footer]]
       weight = 5
       name = "FR-Terms"
       url = "#"
 
 
-  [Languages.fr.params]
+  [Languages.br.params]
 
-    [Languages.fr.params.slider]
+    [Languages.br.params.slider]
       enable = true
       title = "Un marketing numérique & agence de design"
       subtitle = "FRANCAIS We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
 
-    [Languages.fr.params.wrapper]
+    [Languages.br.params.wrapper]
       enable = true
       image = "img/wrapper-img.png"
       title = "FRANCAIS About Us"
       italic = "FRANCAIS Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
       paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
 
-    [Languages.fr.params.blog]
+    [Languages.br.params.blog]
       enable = true
       title = "FRANCAIS Get The Latest On What We're doing"
       subtitle = "FRANCAIS Catch up with us, anytime and anywhere"
 
-    [Languages.fr.params.feature]
+    [Languages.br.params.feature]
       enable = true
       title = "FRANCAIS We believe in great ideas"
       content = "FRANCAIS Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-      [Languages.fr.params.feature.button]
+      [Languages.br.params.feature.button]
         caption = "View Works"
         url = "#"
 
-    [Languages.fr.params.call]
+    [Languages.br.params.call]
       enable = true
       title = "FRANCAIS We design delightful digital experiences."
       paragraph = "FRANCAIS Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
 
-    [Languages.fr.params.contact]
+    [Languages.br.params.contact]
       enable = true
       title = "FRANCAIS Drop us a note"
       subtitle = "Don’t just take our word for it. Check out some of our latest work."
-      [Languages.fr.params.contact.form]
+      [Languages.br.params.contact.form]
         name = "Your name"
         email = "Your email"
         subject = "Your subject"
         message = "Your message"
         button = "Send message"
-      [Languages.fr.params.contact.box]
+      [Languages.br.params.contact.box]
         title = "Stop by for a visit"
         address = "North Main Street, Brooklyn Australia"
         email = "Email: contact@mail.com"
         phone = "Phone: +88 01672 506 744"
-      [Languages.fr.params.contact.gmaps]
+      [Languages.br.params.contact.gmaps]
         title = "We Also Count in Google Maps"
 
   ######## english language

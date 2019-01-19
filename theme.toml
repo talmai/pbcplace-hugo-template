@@ -5,7 +5,7 @@ license = "CC BY 3.0"
 licenselink = "https://github.com/talmai/pbcplace-hugo-template/blob/master/LICENSE"
 description = "HUGO template for pbc.place's website"
 homepage = "https://github.com/talmai/pbcplace-hugo-template/"
-tags = ["blog",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher"]
+tags = ["blog",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive"]
 features = ["blog", "company", "responsive", "seo-friendly"]
 min_version = 0.19
 
