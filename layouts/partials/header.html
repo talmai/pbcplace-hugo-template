@@ -23,7 +23,7 @@
               <!-- Language List -->
               <ul class="list-inline lang-list navbar-right">
                 {{ range $.Site.Home.AllTranslations }}
-                <li class="list-inline-item"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                <li class="list-inline-item"><a href="{{ .Permalink }}"><span class="flag-icon flag-icon-{{ lower .Language.LanguageName }}"></span></a></li>
                 {{ end }}
               </ul>
               <ul class="nav navbar-nav navbar-right">
