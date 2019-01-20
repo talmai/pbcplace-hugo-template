@@ -1,5 +1,5 @@
-title = "Airspace for Hugo"
-baseURL = "https://www.example.com"
+title = "PBC PLACE - Um Lugar para Novos Começos"
+baseURL = "https://www.pbc.place"
 languageCode = "en-us"
 theme = "pbcplace-hugo-template"
 
@@ -37,6 +37,10 @@ theme = "pbcplace-hugo-template"
       weight = 4
       name = "Como Chegar"
       url = "/br/contact"
+    [[Languages.br.menu.header]]
+      weight = 5
+      name = "Doe"
+      url = "/br/give"
 
     [[Languages.br.menu.footer]]
       weight = 2
@@ -50,6 +54,10 @@ theme = "pbcplace-hugo-template"
       weight = 4
       name = "Como Chegar"
       url = "/br/contact"
+    [[Languages.br.menu.footer]]
+      weight = 5
+      name = "Doe"
+      url = "/br/give"
 
   [Languages.br.params.slider]
     enable = true
@@ -127,6 +135,30 @@ theme = "pbcplace-hugo-template"
         weight = 13
         description = "Na responsabilidade individual e intransferível de cada cristão no cumprimento da “Grande Comissão” dada por Jesus. (Mt 28:18-20; At 1:8; 1 Jo 2:6)"
 
+  [Languages.br.params.give]
+    enable = true
+    [Languages.br.params.give.box]
+      title = "Nosso Compromisso"
+      subtitle = "A PBC tem um compromisso em alcançar todos que estão longe de Deus, demonstrando o Seu amor através de atos de compaixão. Temos o privilégio de cooperar através dos nossos dízimos e ofertas."
+      description = "Onde as minhas doações são aplicadas?"
+      give = "Ao clicar no botão logo abaixo, será exibido um formulário seguro online para colocar os dados do seu cartão e enviar a sua contribuição voluntária para a PBC. Escolha enviar seu dízimo ou faça a sua doação para qualquer um de nossos ministérios e/ou projetos missionários, atividades sociais locais e ações humanitárias."
+      caption = "Doe"
+      url = "http://give.pbc.place"
+
+    [Languages.br.params.give.content]
+      [[Languages.br.params.give.content.item]]
+        weight = 1
+        title = "Dízimos"
+        description = "Possibilita a operação do dia-a-dia da igreja, dos seus ministérios e dos serviços prestados."
+      [[Languages.br.params.give.content.item]]
+        weight = 2
+        title = "Missões"
+        description = "Estabelece apoio contínuo aos nossos missionários."
+      [[Languages.br.params.give.content.item]]
+        weight = 3
+        title = "Oferta"
+        description = "Oportunidades surgem periodicamente para designar apoio financeiro a um ministério ou grupo específico."
+
   [Languages.br.params.blog]
     enable = true
     title = "Get The Latest On What We're doing"
@@ -174,7 +206,6 @@ theme = "pbcplace-hugo-template"
     title = "PBC PLACE - A Place for New Beginnings"
     dateFormat = "January 2, 2006"
     home = "Home"
-
     
   [Languages.en.menu]
 
@@ -190,6 +221,10 @@ theme = "pbcplace-hugo-template"
       weight = 4
       name = "Visit us"
       url = "/contact"
+    [[Languages.en.menu.header]]
+      weight = 5
+      name = "Give"
+      url = "/give"
 
     [[Languages.en.menu.footer]]
       weight = 2
@@ -203,6 +238,10 @@ theme = "pbcplace-hugo-template"
       weight = 4
       name = "Visit us"
       url = "/contact"
+    [[Languages.en.menu.footer]]
+      weight = 5
+      name = "Give"
+      url = "/give"
 
   [Languages.en.params.slider]
     enable = true
@@ -279,6 +318,31 @@ theme = "pbcplace-hugo-template"
       [[Languages.en.params.believe.content.item]]
         weight = 13
         description = "In the individual and untransferable responsibility of each Christian in the fulfillment of the 'Great Commission' given by Jesus. (Matthew 28: 18-20, Acts 1: 8, 1 John 2: 6)"
+
+  [Languages.en.params.give]
+    enable = true
+    [Languages.en.params.give.box]
+      title = "Our Commitment"
+      subtitle = "PBC is committed to reaching those who are far from God, unleashing unprecedented levels of compassion into a broken world. We have the privilege of partnering with God's work in the world by using our gifts and resources through the local church."
+      description = "Where do my donations go?"
+      give = "Send through our secure online form, your tithes or offerings to any of our ministries. Click on the button below to start your secure process."
+      caption = "Give"
+      url = "http://give.pbc.place"
+
+    [Languages.en.params.give.content]
+      [[Languages.en.params.give.content.item]]
+        weight = 1
+        title = "Tithes"
+        description = "Funds and makes possible the day-to-day ministries and services of the church."
+      [[Languages.en.params.give.content.item]]
+        weight = 2
+        title = "Missions"
+        description = "Offers continuous financial support to our missionaries throughout the world."
+      [[Languages.en.params.give.content.item]]
+        weight = 3
+        title = "Special"
+        description = "Periodically, opportunities to designate a donation to a specific ministry initiative become available."
+
 
   [Languages.en.params.blog]
     enable = true
