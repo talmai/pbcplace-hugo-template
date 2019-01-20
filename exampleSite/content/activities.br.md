@@ -1,5 +1,5 @@
 +++
 title = "FR Service"
-id = "service"
+id = "activities"
 description = "This is meta description for service page"
 +++

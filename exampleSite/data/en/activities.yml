@@ -1,0 +1,46 @@
+enable: true
+title: Our Activities
+subtitle: >
+  We have activities ongoing throughout the week, and we love visitors. Every activity will have live translation for the moments where you haven't fully grasped Brazilian Portuguese. Come join us!
+
+content:
+
+  - icon: ion-coffee
+    name: Free Breakfast (Sunday)
+    text: >
+      9am. Join us for a pick-me up Sunday morning.
+
+  - icon: ion-university
+    name: Sunday School (Sunday)
+    text: >
+      10:00 - 10:45am. Many classes for all ages and in multiple languages.
+
+  - icon: ion-music-note
+    name: Celebration Service (Sunday)
+    text: >
+      11am. Our celebration service is open to all in the main worship hall. We have simultaneous activities for kids. 
+
+  - icon: ion-android-restaurant
+    name: Lunch (Sunday)
+    text: >
+      After the service we often offer a delicious lunch where all funds raised are sent to our missionaries. 
+
+  - icon: ion-android-person-add
+    name: Youth and Young Adults (Friday)
+    text: >
+      7pm and later. We have simultaneous events every Friday. Our teens start at 7pm, and our young adults (18+) kick things off at 8pm. 
+
+  - icon: ion-android-hand
+    name: Prayer Meeting (Friday)
+    text: >
+      7pm. Come join us for a prayer meeting on Fridays.
+
+  - icon: ion-leaf
+    name: Personal Development (Monday)
+    text: >
+      7pm. Every Monday we have personal development classes based on Bible principles and best practices.
+
+  - icon: ion-android-contacts
+    name: Big Connection (Wednesday)
+    text: >
+      7pm. Weekly mid-week small groups open to all the members and visitors.

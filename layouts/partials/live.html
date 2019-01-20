@@ -1,0 +1,15 @@
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-md-offset-4">
+      <h2 class="text-uppercase">{{ .Site.Params.live.title }}</h2>
+      <p>
+      	{{ .Site.Params.live.content | markdownify }}
+      </p>
+      {{ with .Site.Params.live.button }}
+      	<a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+</section>

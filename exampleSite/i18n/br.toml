@@ -4,8 +4,8 @@ other = "FR Slider"
 other = "FR wrapper"
 [feature]
 other = "FR feature"
-[service]
-other = "FR service"
+[activities]
+other = "FR activities"
 [call-to-action]
 other = "FR call-to-action"
 [testimonial]

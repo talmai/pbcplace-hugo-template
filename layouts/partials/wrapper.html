@@ -7,8 +7,12 @@
           <div class="section-title">
             <h2>{{ .Site.Params.wrapper.title }}</h2>
             <p>{{ .Site.Params.wrapper.italic }}</p>
+            <ul class="fa-ul">
+              {{ range .Site.Params.wrapper.content.item }}
+              <li><span class="fa-li"><i class="fas fa-square"></i></span>{{ .description }}</li>
+              {{ end }}
+            </ul>
           </div>
-          <p>{{ .Site.Params.wrapper.paragraph }}</p>
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
