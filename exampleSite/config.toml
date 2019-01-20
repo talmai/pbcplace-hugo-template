@@ -19,107 +19,159 @@ theme = "pbcplace-hugo-template"
   languageName = "br"
   weight = 1
   languageCode = "pt-br"
-  title = "FRANCAIS Airspace Hugo"
+  title = "PBC PLACE - Um Lugar para Novos Começos"
   dateFormat = "2 January 2006"
-  home = "FR-Home"
+  home = "Principal"
 
   [Languages.br.menu]
 
     [[Languages.br.menu.header]]
       weight = 2
-      name = "FR-Work"
-      url = "/br/work"
+      name = "Cremos"
+      url = "/br/believe"
     [[Languages.br.menu.header]]
       weight = 3
-      name = "FR-Blog"
-      url = "/br/blog"
+      name = "Nossas Atividades"
+      url = "/br/activities"
     [[Languages.br.menu.header]]
       weight = 4
-      name = "FR-Service"
-      url = "/br/service"
-    [[Languages.br.menu.header]]
-      weight = 5
-      name = "FR-Contact"
+      name = "Como Chegar"
       url = "/br/contact"
 
     [[Languages.br.menu.footer]]
-      weight = 1
-      name = "FR-About us"
-      url = "#"
-    [[Languages.br.menu.footer]]
       weight = 2
-      name = "FR-Contact us"
-      url = "#"
+      name = "Cremos"
+      url = "/br/believe"
     [[Languages.br.menu.footer]]
       weight = 3
-      name = "FR-How it works"
-      url = "#"
+      name = "Nossas Atividades"
+      url = "/br/activities"
     [[Languages.br.menu.footer]]
       weight = 4
-      name = "FR-Blog"
-      url = "#"
-    [[Languages.br.menu.footer]]
-      weight = 5
-      name = "FR-Terms"
-      url = "#"
+      name = "Como Chegar"
+      url = "/br/contact"
 
+  [Languages.br.params.slider]
+    enable = true
+    title = "PBC PLACE<br> Um Lugar para Novos Começos"
+    subtitle = "Somos uma igreja alegre e vibrante com culto contemporâneo, com expressões variadas de adoração, louvor e mensagens bíblica. Nossas atividades são bilíngue (português-inglês)."
 
-  [Languages.br.params]
+  [Languages.br.params.wrapper]
+    enable = true
+    image = "img/church_front_people.jpg"
+    title = "Sobre Nossa Igreja"
+    italic = "Queremos levar pessoas a adorarem e a servirem a Deus com alegria e entendimento, desafiando-as a: "
+    [Languages.br.params.wrapper.content]
+      [[Languages.br.params.wrapper.content.item]]
+        weight = 1
+        description = "Conhecerem a Cristo como salvador"
+      [[Languages.br.params.wrapper.content.item]]
+        weight = 2
+        description = "Amadurecerem na vida cristã"
+      [[Languages.br.params.wrapper.content.item]]
+        weight = 3
+        description = "Participarem de grupos pequenos (conexões)"
+      [[Languages.br.params.wrapper.content.item]]
+        weight = 4
+        description = "Atuarem no ministério exercendo seus dons no serviço ao próximo"
+      [[Languages.br.params.wrapper.content.item]]
+        weight = 5
+        description = "Fazerem discípulos de Jesus"
+      [[Languages.br.params.wrapper.content.item]]
+        weight = 6
+        description = "Sustentarem a igreja local, projetos missionários e ações humanitárias"
 
-    [Languages.br.params.slider]
-      enable = true
-      title = "Un marketing numérique & agence de design"
-      subtitle = "FRANCAIS We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
+  [Languages.br.params.believe]
+    enable = true
+    title = "Drop us a note"
+    [Languages.br.params.believe.box]
+      title = "Na PBC, acreditamos. . . "
+    [Languages.br.params.believe.content]
+      [[Languages.br.params.believe.content.item]]
+        weight = 1
+        description = "Na Bíblia como a infalível e inspirada Palavra de Deus (2 Tm 3:15-16), nossa única regra de fé e conduta."
+      [[Languages.br.params.believe.content.item]]
+        weight = 2
+        description = "Em um só Deus eternamente existente em três pessoas: Pai, Filho e Espírito Santo. (Dt 6:4; Mt 28:19; Mc 12:29; 2 Co 13:13)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 3
+        description = "No nascimento virginal de Jesus Cristo (Is 7:14; Mt 1:22-23) , sua morte vicária e expiatória (1 Co 15:3; 1 Pe 2:24; 3:18 ), na sua ressurreição física (Rm 8:34) e na sua ascensão ao Pai. (At 1:10-11)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 4
+        description = "Que o homem é pecador e está separado de Deus e somente pela fé no sacrifício vicário e expiatório de Jesus Cristo pode ser reconciliado com Deus. (Rm 3:23-24; 6:23; At 3:19; 10:43)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 5
+        description = "Na salvação através do sangue de Jesus Cristo. (Rm 3:24-25; 1 Jo 5:10; Rm 10:13)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 6
+        description = "No batismo nas águas. (Mt 28:19; Rm 6:1-4)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 7
+        description = "Na cura divina através da obra redentora de Jesus na cruz. (Is 53:4; Mt 8:16-17; Tg 5:14-15)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 8
+        description = "Na plenitude do Espírito Santo, a qual será acompanhada por dons espirituais que são distribuídos por Deus para a edificação da igreja local. (At 2:4; 10:44-46; Ef 5:18; 1 Co 12:1-11; Rm 12:4-8; Ef 4:11-12)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 9
+        description = "No poder santificador do Espírito Santo, que capacita o cristão a viver uma vida santa. (1 Co 6:11; 2 Co 5:17; Hb 12:14; 1 Pe 1:2,15-16)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 10
+        description = "Na segunda vinda do Senhor Jesus Cristo. (Mt 24:30; 1 Ts 4:16-17; 1 Co 15:51-55; Ap 1:7; 19:7-9)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 11
+        description = "Na vida eterna com Deus para os salvos e na perdição eterna para os não salvos. (Mt 25:41,46; Jo 3:16-18; At 24:15; Lc 14:14; Ap 20:11-15)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 12
+        description = "Na igreja constituída por pessoas que de livre vontade congregam-se com a finalidade de prestarem culto a Deus, observarem as ordenanças de Jesus, meditarem nos ensinamentos bíblicos para a edificação mútua e para a propagação do Evangelho. (At 2:41-42; Mt18:15-17)"
+      [[Languages.br.params.believe.content.item]]
+        weight = 13
+        description = "Na responsabilidade individual e intransferível de cada cristão no cumprimento da “Grande Comissão” dada por Jesus. (Mt 28:18-20; At 1:8; 1 Jo 2:6)"
 
-    [Languages.br.params.wrapper]
-      enable = true
-      image = "img/wrapper-img.png"
-      title = "FRANCAIS About Us"
-      italic = "FRANCAIS Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-      paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+  [Languages.br.params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
 
-    [Languages.br.params.blog]
-      enable = true
-      title = "FRANCAIS Get The Latest On What We're doing"
-      subtitle = "FRANCAIS Catch up with us, anytime and anywhere"
+  [Languages.br.params.live]
+    enable = true
+    title = ""
+    content = ""
+    [Languages.br.params.live.button]
+      caption = "Assista aos nossos cultos Ao Vivo, Todos os Domingos @11AM"
+      url = "http://live.pbc.place"
 
-    [Languages.br.params.feature]
-      enable = true
-      title = "FRANCAIS We believe in great ideas"
-      content = "FRANCAIS Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-      [Languages.br.params.feature.button]
-        caption = "View Works"
-        url = "#"
+  [Languages.br.params.call]
+    enable = true
+    title = "COMO CHEGAR"
+    paragraph = "Estamos localizados na cidade de Saugus, acessível pela rota 1 e próximo ao Square One Mall. Nosso endereço é 47 Adams Avenue, Saugus, MA, 01906."
 
-    [Languages.br.params.call]
-      enable = true
-      title = "FRANCAIS We design delightful digital experiences."
-      paragraph = "FRANCAIS Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  [Languages.br.params.contact]
+    enable = true
+    title = "Drop us a note"
+    videomp4 = "video/saugus_pbc_video.mp4"
+    videoogg = "video/saugus_pbc_video.ogg"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [Languages.br.params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [Languages.br.params.contact.box]
+      title = "Visite-nos"
+      address = "47 Adams Avenus, Saugus, MA, 01906"
+      email = "Email: office@pbc.place"
+      phone = "Telefone: (617) 354-4557"
+    [Languages.br.params.contact.gmaps]
+      title = "Estamos localizados na cidade de Saugus, acessível pela rota 1 e próximo ao Square One Mall."
 
-    [Languages.br.params.contact]
-      enable = true
-      title = "FRANCAIS Drop us a note"
-      subtitle = "Don’t just take our word for it. Check out some of our latest work."
-      [Languages.br.params.contact.form]
-        name = "Your name"
-        email = "Your email"
-        subject = "Your subject"
-        message = "Your message"
-        button = "Send message"
-      [Languages.br.params.contact.box]
-        title = "Stop by for a visit"
-        address = "North Main Street, Brooklyn Australia"
-        email = "Email: contact@mail.com"
-        phone = "Phone: +88 01672 506 744"
-      [Languages.br.params.contact.gmaps]
-        title = "We Also Count in Google Maps"
 
   ######## english language
   [Languages.en]
   languageName = "us"
     weight = 2
     languageCode = "en-us"
-    title = "Airspace Hugo"
+    title = "PBC PLACE - A Place for New Beginnings"
     dateFormat = "January 2, 2006"
     home = "Home"
 
@@ -129,7 +181,7 @@ theme = "pbcplace-hugo-template"
     [[Languages.en.menu.header]]
       weight = 2
       name = "What we Believe"
-      url = "/work"
+      url = "/believe"
     [[Languages.en.menu.header]]
       weight = 3
       name = "Our Activities"
@@ -142,7 +194,7 @@ theme = "pbcplace-hugo-template"
     [[Languages.en.menu.footer]]
       weight = 2
       name = "What we Believe"
-      url = "/work"
+      url = "/believe"
     [[Languages.en.menu.footer]]
       weight = 3
       name = "Our Activities"
@@ -171,7 +223,7 @@ theme = "pbcplace-hugo-template"
         description = "Mature in the Christian life"
       [[Languages.en.params.wrapper.content.item]]
         weight = 3
-        description = "Participate in small groups"
+        description = "Participate in small groups (connections)"
       [[Languages.en.params.wrapper.content.item]]
         weight = 4
         description = "Act in the ministry exercising their gifts in service to others"
@@ -181,6 +233,52 @@ theme = "pbcplace-hugo-template"
       [[Languages.en.params.wrapper.content.item]]
         weight = 6
         description = "Support the local church, missionary projects and humanitarian actions"
+
+  [Languages.en.params.believe]
+    enable = true
+    title = "Drop us a note"
+    [Languages.en.params.believe.box]
+      title = "At PBC we believe. . . "
+    [Languages.en.params.believe.content]
+      [[Languages.en.params.believe.content.item]]
+        weight = 1
+        description = "In the Bible as the infallible and inspired Word of God (2 Tim. 3: 15-16), our only rule of faith and conduct."
+      [[Languages.en.params.believe.content.item]]
+        weight = 2
+        description = "In one God eternally existing in three persons: Father, Son and Holy Spirit. (Deuteronomy 6: 4, Matthew 28:19, Mark 12:29, 2 Cor 13:13)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 3
+        description = "In the virgin birth of Jesus Christ (Isa 7:14, Mt 1: 22-23), his vicarious and atoning death (1 Cor 15: 3; 1 Pe 2:24; 3:18), in his physical resurrection (Rom 8 : 34) and in his ascension to the Father (Acts 1: 10-11)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 4
+        description = "That man is sinful and separated from God, and only by faith in the vicarious and atoning sacrifice of Jesus Christ can he be reconciled to God. (Romans 3: 23-24, 6:23, Acts 3:19, 10:43)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 5
+        description = "In salvation through the blood of Jesus Christ. (Romans 3: 24-25, 1 John 5:10, Romans 10:13)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 6
+        description = "In water baptism. (Matthew 28:19; Rom 6: 1-4)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 7
+        description = "In divine healing through the redemptive work of Jesus on the cross. (Isaiah 53: 4, Mt 8: 16-17, James 5: 14-15)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 8
+        description = "In the fullness of the Holy Spirit, which will be accompanied by spiritual gifts that are distributed by God to the edification of the local church. (Acts 2: 4, 10: 44-46, Ephesians 5:18, 1 Cor 12: 1-11, Rom 12: 4-8, Eph 4: 11-12)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 9
+        description = "In the sanctifying power of the Holy Spirit, which enables the Christian to live a holy life. (1 Corinthians 6:11, 2 Corinthians 5:17, Heb 12:14, 1 Peter 1: 2,15-16)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 10
+        description = "At the second coming of the Lord Jesus Christ. (Mt 24:30, 1 Thess 4: 16-17, 1 Cor 15: 51-55, Rev 1: 7, 19: 7-9)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 11
+        description = "In eternal life with God for the saved and eternal damnation for the unsaved. (Matthew 25: 41-46, John 3: 16-18, Acts 24:15, Luke 14:14, Revelation 20: 11-15)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 12
+        description = "In the church, made up of people which, in free will, congregate for the purpose of worshiping God, observing the ordinances of Jesus, meditating on the biblical teachings for mutual edification and the propagation of the Gospel. (Acts 2: 41-42; Mt 18: 15-17)"
+      [[Languages.en.params.believe.content.item]]
+        weight = 13
+        description = "In the individual and untransferable responsibility of each Christian in the fulfillment of the 'Great Commission' given by Jesus. (Matthew 28: 18-20, Acts 1: 8, 1 John 2: 6)"
 
   [Languages.en.params.blog]
     enable = true
@@ -203,7 +301,8 @@ theme = "pbcplace-hugo-template"
   [Languages.en.params.contact]
     enable = true
     title = "Drop us a note"
-    video = "video/saugus_pbc_video.mp4"
+    videomp4 = "video/saugus_pbc_video.mp4"
+    videoogg = "video/saugus_pbc_video.ogg"
     subtitle = "Don’t just take our word for it. Check out some of our latest work."
     [Languages.en.params.contact.form]
       name = "Your name"

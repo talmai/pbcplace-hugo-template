@@ -1,45 +1,46 @@
 enable: true
-title: notre service
+title: Nossas Atividades
 subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Além dos domingos, temos atividades durante a semana, onde todos são muito bem vindos. 
+
 content:
 
   - icon: ion-coffee
-    name: FR Branding
+    name: Café da manhã gratuito (Domingo)
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      9am. Você está convidado para o nosso delicioso café brasileiro gratuito, servido antes do início das atividades dominicais. Todos são bem-vindos.
 
-  - icon: ion-compass
-    name: FR Web Design
+  - icon: ion-university
+    name: Escola Bíblica (Domingo)
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      10:00 - 10:45am. Diversas classes para todas as idades e bilíngue (português-inglês).
 
-  - icon: ion-image
-    name: FR App Design
+  - icon: ion-music-note
+    name: Culto de Celebração (Domingo)
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      11am. O culto acontece no templo principal, simultaneamente com o culto infantil (kids time) que ocorre no salão infantil.
 
-  - icon: ion-bug
-    name: FR Start Up
+  - icon: ion-android-restaurant
+    name: Almoço (Domingo)
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Após a maioria dos nossos cultos, é oferecido um delicioso almoço no refeitório. Todos os valores arrecados são revertidos para nossos missionários.
 
-  - icon: ion-headphone
-    name: FR Logo Design
+  - icon: ion-android-person-add
+    name: Adolescentes e Jovem Adultos (Sexta)
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Apartir das 7pm. Temos eventos em paralelo ocorrendo nas Sextas. Os adolescentes se encontram apartir das 7pm, enquanto que os jovem adultos (18+) começam apartir das 8pm.
+
+  - icon: ion-android-hand
+    name: Oração pela família (Sexta)
+    text: >
+      7pm. Todas as sextas nos encontramos para orarmos.
 
   - icon: ion-leaf
-    name: FR Development
+    name: Oficinas para a Vida (Segunda)
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      7pm. Toda segunda-feira temos estudos e desafios para a nossa saúde emocional.
 
-  - icon: ion-planet
-    name: FR Brand Identity
+  - icon: ion-android-contacts
+    name: Big Conexão (Quarta)
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-earth
-    name: FR Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      7pm. Encontro semanal da conexão para todos.

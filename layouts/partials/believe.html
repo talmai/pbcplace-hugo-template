@@ -1,0 +1,22 @@
+{{ partial "global-header.html" . }}
+
+<!-- contact form start -->
+{{ with .Site.Params.believe }}
+<section id="contact-form">
+  <div class="container">
+    <div id="contact-box" class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="block">
+
+          <h2>{{ .box.title }}</h2>
+          <ul class="fa-ul">
+              {{ range .content.item }}
+              <li><span class="fa-li"><i class="fa fa-check"></i></span>{{ .description }}</li>
+              {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
