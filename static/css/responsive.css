@@ -178,6 +178,8 @@ px      68    160    252    */
   #slider {
     padding-top: 90px;
     padding-bottom: 100px;
+    background: url("../img/slider-bg-mobile.jpg") no-repeat;
+  }
   }
   #slider .block {
     padding-left: 0px;

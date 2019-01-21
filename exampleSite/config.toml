@@ -1,5 +1,5 @@
-title = "PBC PLACE - Um Lugar para Novos Começos"
-baseURL = "https://www.pbc.place"
+#title = "PBC PLACE - Um Lugar para Novos Começos"
+baseURL = "https://www.pbc.place/"
 languageCode = "en-us"
 theme = "pbcplace-hugo-template"
 
@@ -13,13 +13,14 @@ theme = "pbcplace-hugo-template"
   
 # Multilangual : BR / EN
 [Languages]
-    ############ 1 - Site em Portugues
+    ############ 1 - Site em Portugues  
 
   [Languages.br]
   languageName = "br"
   weight = 1
   languageCode = "pt-br"
   title = "PBC PLACE - Um Lugar para Novos Começos"
+  baseURL = "https://www.pbc.place/br/"
   dateFormat = "2 January 2006"
   home = "Principal"
 
@@ -28,36 +29,36 @@ theme = "pbcplace-hugo-template"
     [[Languages.br.menu.header]]
       weight = 2
       name = "Cremos"
-      url = "/br/believe"
+      url = "/believe"
     [[Languages.br.menu.header]]
       weight = 3
       name = "Nossas Atividades"
-      url = "/br/activities"
+      url = "/activities"
     [[Languages.br.menu.header]]
       weight = 4
       name = "Como Chegar"
-      url = "/br/contact"
+      url = "/contact"
     [[Languages.br.menu.header]]
       weight = 5
       name = "Doe"
-      url = "/br/give"
+      url = "/give"
 
     [[Languages.br.menu.footer]]
       weight = 2
       name = "Cremos"
-      url = "/br/believe"
+      url = "/believe"
     [[Languages.br.menu.footer]]
       weight = 3
       name = "Nossas Atividades"
-      url = "/br/activities"
+      url = "/activities"
     [[Languages.br.menu.footer]]
       weight = 4
       name = "Como Chegar"
-      url = "/br/contact"
+      url = "/contact"
     [[Languages.br.menu.footer]]
       weight = 5
       name = "Doe"
-      url = "/br/give"
+      url = "/give"
 
   [Languages.br.params.slider]
     enable = true
@@ -204,6 +205,7 @@ theme = "pbcplace-hugo-template"
     weight = 2
     languageCode = "en-us"
     title = "PBC PLACE - A Place for New Beginnings"
+    baseURL = "https://www.pbc.place/"
     dateFormat = "January 2, 2006"
     home = "Home"
     
