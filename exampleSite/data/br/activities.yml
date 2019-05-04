@@ -1,7 +1,7 @@
 enable: true
 title: Nossas Atividades
 subtitle: >
-  Além dos domingos, temos atividades durante a semana, onde todos são muito bem vindos. 
+  Além dos domingos, temos atividades durante a semana, onde todos são muito bem vindos.
 
 content:
 
@@ -26,21 +26,26 @@ content:
       Após a maioria dos nossos cultos, é oferecido um delicioso almoço no refeitório. Todos os valores arrecados são revertidos para nossos missionários.
 
   - icon: ion-android-person-add
-    name: Adolescentes e Jovem Adultos (Sexta)
+    name: Adolescentes (Sexta)
     text: >
-      Apartir das 7pm. Temos eventos em paralelo ocorrendo nas Sextas. Os adolescentes se encontram apartir das 7pm, enquanto que os jovem adultos (18+) começam apartir das 8pm.
+      Apartir das 7pm, todas as sextas. Os adolescentes se encontram na igreja.
+
+  - icon: ion-android-person-add
+    name: Jovem Adultos - 18+ (Sexta)
+    text: >
+      Apartir das 8pm, em semanas alternadas.
 
   - icon: ion-android-hand
     name: Oração pela família (Sexta)
     text: >
       7pm. Todas as sextas nos encontramos para orarmos.
 
-  - icon: ion-leaf
-    name: Oficinas para a Vida (Segunda)
-    text: >
-      7pm. Toda segunda-feira temos estudos e desafios para a nossa saúde emocional.
+#  - icon: ion-leaf
+#    name: Oficinas para a Vida (Segunda)
+#    text: >
+#      7pm. Toda segunda-feira temos estudos e desafios para a nossa saúde emocional.
 
   - icon: ion-android-contacts
-    name: Big Conexão (Quarta)
+    name: Conexões PBC
     text: >
-      7pm. Encontro semanal da conexão para todos.
+        Lugar de amizade, Bíblia, oração e lanche. 7:30pm às terças, quartas e quintas-feiras. Para Famílias, Adultos e Jovens. Entre em contato com a secretaria para obter endereços e telefones.

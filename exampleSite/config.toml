@@ -10,10 +10,10 @@ theme = "pbcplace-hugo-template"
   googleAnalitycsID = "Your ID"
   description = "PBC Place's Hugo Template Theme"
   author = "talmai"
-  
+
 # Multilangual : BR / EN
 [Languages]
-    ############ 1 - Site em Portugues  
+    ############ 1 - Site em Portugues
 
   [Languages.br]
   languageName = "br"
@@ -208,7 +208,7 @@ theme = "pbcplace-hugo-template"
     baseURL = "https://www.pbc.place/"
     dateFormat = "January 2, 2006"
     home = "Home"
-    
+
   [Languages.en.menu]
 
     [[Languages.en.menu.header]]
